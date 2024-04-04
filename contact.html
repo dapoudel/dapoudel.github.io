@@ -9,9 +9,9 @@
 <body>
 
 <div class="topnav" id="myTopnav">
-  <a href="index.html" class="active">Home</a>
+  <a href="index.html">Home</a>
   <a href="#news">News</a>
-  <a href="contact.html">Contact</a> 
+  <a href="contact.html" class="active">Contact</a> 
   <a href="#about">About</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
@@ -19,8 +19,12 @@
 </div>
 
 <div style="padding-left:16px">
-  <h2>Responsive Topnav Example</h2>
-  <p>Resize the browser window to see how it works.</p>
+  <form action="">
+    Name: <input type="text" name="name" id="name"><br>
+    Email: <input type="email" name="email" id="email"><br>
+    Address: <textarea name="address" id="address" cols="30" rows="10"></textarea><br>
+    <input type="submit" value="Submit">
+  </form>
 </div>
 
 </body>
